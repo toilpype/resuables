@@ -1,0 +1,18 @@
+{   
+    // C++ Formatting: Requires both clang-format and clang-format vscode extension
+    "clang-format.style": "{IndentWidth: 4, ColumnLimit: 0}",
+    "clang-format.fallbackStyle": "Google",
+    "clang-format.executable": "/usr/bin/clang-format",
+    "[c]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave" : {
+            "source.fixAll" : true
+        },
+    },
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave" : {
+            "source.fixAll" : true
+        },
+    }
+}
