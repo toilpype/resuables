@@ -16,17 +16,18 @@
     ],
     "python.analysis.typeCheckingMode": "off",
     
-    // (maybe deprecated) Formatting: yapf
-    "python.formatting.provider": "yapf",
-    "python.formatting.yapfArgs": [
-        "--style={based_on_style=google, column_limit=100, no_spaces_around_selected_binary_operators='*,/,//,%%'}"
-    ],
+    // Formatting: yapf
     "[python]": {
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.formatOnSaveMode": "file",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "explicit"
         },
     },
+    "yapf.args": [
+        "--style", "{based_on_style: google, column_limit=100, no_spaces_around_selected_binary_operators='*,/,//,%%'}"
+    ],
     "isort.args": [
         "--profile",
         "black"
