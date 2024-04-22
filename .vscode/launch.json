@@ -7,7 +7,7 @@
         {
             // The default debug configuration created automatically.
             "name": "Python: Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
@@ -16,7 +16,7 @@
         {
             // For launching the file in a sub directory specified by the user.
             "name": "Python: subdir_name",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
@@ -26,7 +26,7 @@
         {
             // For launching the script as a python module. Requires the 'Command Variable' vscode extension.
             "name": "Python: Module",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "module": "${command:extension.commandvariable.file.relativeDirDots}.${fileBasenameNoExtension}",
             "justMyCode": false
