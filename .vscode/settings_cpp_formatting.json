@@ -3,16 +3,10 @@
     "clang-format.style": "{IndentWidth: 4, ColumnLimit: 0}",
     "clang-format.fallbackStyle": "Google",
     "clang-format.executable": "/usr/bin/clang-format",
-    "[c]": {
+    "[c][cpp]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave" : {
-            "source.fixAll" : true
+            "source.fixAll" : "explicit"
         },
-    },
-    "[cpp]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave" : {
-            "source.fixAll" : true
-        },
-    },
+    }
 }
