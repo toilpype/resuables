@@ -1,5 +1,5 @@
 {
-    // Formatting: black
+    // Python Formatting: black
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
@@ -16,7 +16,7 @@
     ],
     "python.analysis.typeCheckingMode": "off",
     
-    // Formatting: yapf
+    // Python Formatting: yapf
     "[python]": {
         "editor.defaultFormatter": "eeyore.yapf",
         "editor.formatOnSaveMode": "file",
